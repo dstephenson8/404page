@@ -30,8 +30,8 @@ const blueRicky = [
 ]
 const orangeRicky = [ 
     [0, width, width*2, width*2+1],
-    [1, 2, width+2, width*2+1],
-    [2, width+2, width+1, width+2],
+    [width, widht+1, width+2, width + 3],
+    [0, 1, width+1, width *2+2],
     [0,1,2,width+1]
 ]
 

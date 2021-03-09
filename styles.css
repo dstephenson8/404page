@@ -1,0 +1,161 @@
+html,body{
+ margin: 0;
+
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: hsl(0, 0%, 96%);
+
+}
+.page_title{
+    font-size: 8rem;
+    margin: 0;
+    
+}
+.info_not_found{
+    font-size: 2rem;
+    margin-top: 0
+}
+.info_paragraph{
+    margin-top: 0;
+    margin-bottom: 0rem
+}
+
+
+
+.link{
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #F1B863;
+    border-radius: 3em;
+    color: black;
+    text-align: center;
+    margin: .25rem;
+}
+.link:hover,
+.link:focus{
+    padding: 12px 14px;
+}
+
+
+
+#start, .score_board{
+    font-family: 'Karla', sans-serif;
+
+}
+#title{
+    text-align: center;
+    width: 400px;
+}
+
+#start{
+  margin: 5px;
+  align-self: center;
+}
+
+.score_board{
+    text-align: center;
+    width: 400px;
+    margin: 0;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.coral_image{
+    position: absolute;
+    left: 1%;
+    bottom: 3%;
+    width: 350px;
+    z-index: -1;
+}
+
+.lilac_image{
+    position: absolute;
+    right: 1%;
+    top: 3%;
+    width: 350px;
+    z-index: -1;
+
+}
+
+.rules{
+    margin-bottom: 2em;
+}
+.grid{
+    
+    width: 400px;
+    height: 400px;
+    border: solid black .5px;
+    display: flex; 
+    flex-wrap: wrap;
+    /* background-color: black; */
+    background-color: hsl(0, 0%, 96%);
+    margin-right: 0;
+    border-radius: .5rem;
+}
+
+.square{
+    width: 10px;
+    height: 10px;  
+}
+
+.snake{
+    background-color: #7FFF00;
+    border: 1px black solid; 
+    box-sizing: border-box;
+    border-radius: 50%;
+
+}
+
+.apple{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.specialApple{
+    background-color: purple;
+    border-radius: 50%;
+
+}
+
+
+.container{
+    display: absolute;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 1em;
+    
+    padding-left: 0; 
+    display: flex;
+    width: 20%;
+    background: grey
+}
+
+
+
+.yellow{
+    color: orange;
+}
+
+.red{
+    color: red;
+}
+
+
+
+
+.hidden{
+    display: none;
+}
